@@ -33,13 +33,13 @@ public class RectangleTests
         ClassicAssert.AreEqual(4, shape.LowerBoundY);
     }
 
-//     [Test]
-//     public void CheckUpperBounds()
-//     {
-//         // upper bound is the largest x that needs to be checked when drawing the shape
-//         Assert.AreEqual(3 + 5, shape.UpperBoundX);
-//         Assert.AreEqual(4 + 6, shape.UpperBoundY);
-//     }
+    [Test]
+    public void CheckUpperBounds()
+    {
+        // upper bound is the largest x that needs to be checked when drawing the shape
+        ClassicAssert.AreEqual(3 + 5, shape.UpperBoundX);
+        ClassicAssert.AreEqual(4 + 6, shape.UpperBoundY);
+    }
 
 //     [Test]
 //     public void MiddleOfShapeIsIncluded()
