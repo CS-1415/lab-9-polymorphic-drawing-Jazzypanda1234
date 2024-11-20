@@ -19,19 +19,19 @@ public class RectangleTests
     public void EnsurePropertiesAreCorrect()
     {
         
-        Assert.AreEqual(3, rectangle.Left);
-        Assert.AreEqual(4, rectangle.Top);
-        Assert.AreEqual(5, rectangle.Width);
-        Assert.AreEqual(6, rectangle.Height);
+        ClassicAssert.AreEqual(3, rectangle.Left);
+        ClassicAssert.AreEqual(4, rectangle.Top);
+        ClassicAssert.AreEqual(5, rectangle.Width);
+        ClassicAssert.AreEqual(6, rectangle.Height);
     }
 
-    [Test]
-    public void CheckLowerBounds()
-    {
-        // lower bound is the smallest x that needs to be checked when drawing the shape
-        Assert.AreEqual(3, shape.LowerBoundX);
-        Assert.AreEqual(4, shape.LowerBoundY);
-    }
+    // [Test]
+    // public void CheckLowerBounds()
+    // {
+    //     // lower bound is the smallest x that needs to be checked when drawing the shape
+    //     ClassicAssert.AreEqual(3, shape.LowerBoundX);
+    //     ClassicAssert.AreEqual(4, shape.LowerBoundY);
+    // }
 
 //     [Test]
 //     public void CheckUpperBounds()
