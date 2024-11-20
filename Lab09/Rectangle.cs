@@ -16,11 +16,11 @@ public class Rectangle : AbstractGraphic2D
     }
     public override decimal LowerBoundX => Left;
 
-    public override decimal UpperBoundX => 0;
+    public override decimal UpperBoundX => Left+Width;
 
     public override decimal LowerBoundY => Top;
 
-    public override decimal UpperBoundY => 0;
+    public override decimal UpperBoundY => Top+Height;
     public override bool ContainsPoint(decimal x, decimal y)
     {
         return false;
