@@ -11,13 +11,13 @@ public class Circle : AbstractGraphic2D
         this.CenterY = CenterY;
         this.Radius = Radius;
     }
-    public override decimal LowerBoundX => -1;
+    public override decimal LowerBoundX => CenterX - Radius;
 
-    public override decimal UpperBoundX => -1;
+    public override decimal UpperBoundX => CenterX + Radius;
 
-    public override decimal LowerBoundY => -1;
+    public override decimal LowerBoundY => CenterY - Radius;
 
-    public override decimal UpperBoundY => -1;
+    public override decimal UpperBoundY => CenterY + Radius;
 
     public override bool ContainsPoint(decimal x, decimal y)
     {
