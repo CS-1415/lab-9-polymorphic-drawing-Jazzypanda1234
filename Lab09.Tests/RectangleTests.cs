@@ -41,27 +41,27 @@ public class RectangleTests
         ClassicAssert.AreEqual(4 + 6, shape.UpperBoundY);
     }
 
-//     [Test]
-//     public void MiddleOfShapeIsIncluded()
-//     {
-//         Assert.IsTrue(shape.ContainsPoint(5.5m, 7));
-//     }
+    [Test]
+    public void MiddleOfShapeIsIncluded()
+    {
+        ClassicAssert.IsTrue(shape.ContainsPoint(5.5m, 7));
+    }
 
 //     [Test]
 //     public void CornersIncluded()
 //     {
-//         Assert.IsTrue(shape.ContainsPoint(3, 4));
-//         Assert.IsTrue(shape.ContainsPoint(8, 4));
-//         Assert.IsTrue(shape.ContainsPoint(3, 10));
-//         Assert.IsTrue(shape.ContainsPoint(8, 10));
+//         ClassicAssert.IsTrue(shape.ContainsPoint(3, 4));
+//         ClassicAssert.IsTrue(shape.ContainsPoint(8, 4));
+//         ClassicAssert.IsTrue(shape.ContainsPoint(3, 10));
+//         ClassicAssert.IsTrue(shape.ContainsPoint(8, 10));
 //     }
 
 //     [Test]
 //     public void OutsideOfCornersNotIncludedInShape()
 //     {
-//         Assert.IsFalse(shape.ContainsPoint(3 - 0.1m, 4));
-//         Assert.IsFalse(shape.ContainsPoint(8, 4 - 0.1m));
-//         Assert.IsFalse(shape.ContainsPoint(3, 10 + 0.1m));
-//         Assert.IsFalse(shape.ContainsPoint(8 + 0.1m, 10));
+//         ClassicAssert.IsFalse(shape.ContainsPoint(3 - 0.1m, 4));
+//         ClassicAssert.IsFalse(shape.ContainsPoint(8, 4 - 0.1m));
+//         ClassicAssert.IsFalse(shape.ContainsPoint(3, 10 + 0.1m));
+//         ClassicAssert.IsFalse(shape.ContainsPoint(8 + 0.1m, 10));
 //     }
 }
