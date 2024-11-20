@@ -26,14 +26,14 @@ public class CircleTests
         ClassicAssert.AreEqual(2, circle.Radius);
     }
 
-//     [Test]
-//     public void HasCorrectBoundingBox()
-//     {
-//         ClassicAssert.AreEqual(8 - 2, shape.LowerBoundX);
-//         ClassicAssert.AreEqual(10 - 2, shape.LowerBoundY);
-//         ClassicAssert.AreEqual(8 + 2, shape.UpperBoundX);
-//         ClassicAssert.AreEqual(10 + 2, shape.UpperBoundY);
-//     }
+    [Test]
+    public void HasCorrectBoundingBox()
+    {
+        ClassicAssert.AreEqual(8 - 2, shape.LowerBoundX);
+        ClassicAssert.AreEqual(10 - 2, shape.LowerBoundY);
+        ClassicAssert.AreEqual(8 + 2, shape.UpperBoundX);
+        ClassicAssert.AreEqual(10 + 2, shape.UpperBoundY);
+    }
 
 //     [Test]
 //     public void CenterIsIncluded()
