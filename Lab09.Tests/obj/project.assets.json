@@ -346,6 +346,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Lab09/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Lab09.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lab09.dll": {}
+        }
       }
     }
   },
@@ -793,10 +803,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Lab09/1.0.0": {
+      "type": "project",
+      "path": "../Lab09/Lab09.csproj",
+      "msbuildProject": "../Lab09/Lab09.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Lab09 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.11.1",
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.3.0",
@@ -835,7 +851,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 9 Polymorphic Drawing\\lab-9-polymorphic-drawing-Jazzypanda1234\\Lab09\\Lab09.csproj": {
+              "projectPath": "C:\\Users\\jazzy\\OneDrive\\Desktop\\Programming\\Lab 9 Polymorphic Drawing\\lab-9-polymorphic-drawing-Jazzypanda1234\\Lab09\\Lab09.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

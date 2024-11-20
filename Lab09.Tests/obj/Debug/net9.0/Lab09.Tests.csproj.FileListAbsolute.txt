@@ -98,3 +98,7 @@ C:\Users\jazzy\OneDrive\Desktop\Programming\Lab 9 Polymorphic Drawing\lab-9-poly
 C:\Users\jazzy\OneDrive\Desktop\Programming\Lab 9 Polymorphic Drawing\lab-9-polymorphic-drawing-Jazzypanda1234\Lab09.Tests\obj\Debug\net9.0\Lab09.Tests.pdb
 C:\Users\jazzy\OneDrive\Desktop\Programming\Lab 9 Polymorphic Drawing\lab-9-polymorphic-drawing-Jazzypanda1234\Lab09.Tests\obj\Debug\net9.0\Lab09.Tests.genruntimeconfig.cache
 C:\Users\jazzy\OneDrive\Desktop\Programming\Lab 9 Polymorphic Drawing\lab-9-polymorphic-drawing-Jazzypanda1234\Lab09.Tests\obj\Debug\net9.0\ref\Lab09.Tests.dll
+C:\Users\jazzy\OneDrive\Desktop\Programming\Lab 9 Polymorphic Drawing\lab-9-polymorphic-drawing-Jazzypanda1234\Lab09.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_Lab09.Tests
+C:\Users\jazzy\OneDrive\Desktop\Programming\Lab 9 Polymorphic Drawing\lab-9-polymorphic-drawing-Jazzypanda1234\Lab09.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_Lab09.Tests
+C:\Users\jazzy\OneDrive\Desktop\Programming\Lab 9 Polymorphic Drawing\lab-9-polymorphic-drawing-Jazzypanda1234\Lab09.Tests\bin\Debug\net9.0\Lab09.dll
+C:\Users\jazzy\OneDrive\Desktop\Programming\Lab 9 Polymorphic Drawing\lab-9-polymorphic-drawing-Jazzypanda1234\Lab09.Tests\bin\Debug\net9.0\Lab09.pdb
