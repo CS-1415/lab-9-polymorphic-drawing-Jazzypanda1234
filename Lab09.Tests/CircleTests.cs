@@ -35,27 +35,27 @@ public class CircleTests
         ClassicAssert.AreEqual(10 + 2, shape.UpperBoundY);
     }
 
-//     [Test]
-//     public void CenterIsIncluded()
-//     {
-//         ClassicAssert.IsTrue(shape.ContainsPoint(8, 10));
-//     }
+    [Test]
+    public void CenterIsIncluded()
+    {
+        ClassicAssert.IsTrue(shape.ContainsPoint(8, 10));
+    }
 
-//     [Test]
-//     public void ContainsAllFourPointsOfTheCompass()
-//     {
-//         ClassicAssert.IsTrue(shape.ContainsPoint(8 - 2, 10));
-//         ClassicAssert.IsTrue(shape.ContainsPoint(8 + 2, 10));
-//         ClassicAssert.IsTrue(shape.ContainsPoint(8, 10 - 2));
-//         ClassicAssert.IsTrue(shape.ContainsPoint(8, 10 + 2));
-//     }
+    [Test]
+    public void ContainsAllFourPointsOfTheCompass()
+    {
+        ClassicAssert.IsTrue(shape.ContainsPoint(8 - 2, 10));
+        ClassicAssert.IsTrue(shape.ContainsPoint(8 + 2, 10));
+        ClassicAssert.IsTrue(shape.ContainsPoint(8, 10 - 2));
+        ClassicAssert.IsTrue(shape.ContainsPoint(8, 10 + 2));
+    }
 
-//     [Test]
-//     public void ShouldNotContainFourCorners()
-//     {
-//         ClassicAssert.IsFalse(shape.ContainsPoint(8 - 2, 10 - 2));
-//         ClassicAssert.IsFalse(shape.ContainsPoint(8 + 2, 10 - 2));
-//         ClassicAssert.IsFalse(shape.ContainsPoint(8 - 2, 10 + 2));
-//         ClassicAssert.IsFalse(shape.ContainsPoint(8 + 2, 10 + 2));
-//     }
+    [Test]
+    public void ShouldNotContainFourCorners()
+    {
+        ClassicAssert.IsFalse(shape.ContainsPoint(8 - 2, 10 - 2));
+        ClassicAssert.IsFalse(shape.ContainsPoint(8 + 2, 10 - 2));
+        ClassicAssert.IsFalse(shape.ContainsPoint(8 - 2, 10 + 2));
+        ClassicAssert.IsFalse(shape.ContainsPoint(8 + 2, 10 + 2));
+    }
 }

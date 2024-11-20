@@ -19,8 +19,11 @@ public class Circle : AbstractGraphic2D
 
     public override decimal UpperBoundY => CenterY + Radius;
 
-    public override bool ContainsPoint(decimal x, decimal y)
-    {
-        return false;
-    }
+    // public override bool ContainsPoint(decimal x, decimal y)
+    // {
+    //     if ((x + CenterX)*(x + CenterX) + (y+CenterY) * (y+CenterY) <= Radius * Radius)
+    //         return true;
+    //     else
+    //         return false;
+    // }
 }
